@@ -1,0 +1,4 @@
+[13-Feb-2026 16:13:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/ykrzphth/public_html/estilocampo.es/wp-content/themes/universe/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/ykrzphth/public_html/estilocampo.es/wp-content/themes/universe/404.php on line 1

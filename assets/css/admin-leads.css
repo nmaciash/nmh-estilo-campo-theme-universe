@@ -1,0 +1,133 @@
+/* Panel de administración de leads — Estilo Campo */
+
+.ec-leads-wrap { max-width: 1400px; }
+
+/* ── Tarjetas resumen ───────────────────────────── */
+.ec-stat-cards {
+    display: flex;
+    gap: 16px;
+    margin: 20px 0 24px;
+    flex-wrap: wrap;
+}
+
+.ec-stat-card {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid #2271b1;
+    padding: 16px 24px;
+    min-width: 160px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+}
+
+.ec-stat-card.landing { border-top-color: #7c3aed; }
+.ec-stat-card.web     { border-top-color: #059669; }
+
+.ec-stat-card__label {
+    margin: 0 0 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #64748b;
+}
+
+.ec-stat-card__value {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    color: #1e293b;
+}
+
+/* ── Filtros ────────────────────────────────────── */
+.ec-filters {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+}
+
+.ec-filters-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.ec-filters-row input[type="search"],
+.ec-filters-row select,
+.ec-filters-row input[type="date"] {
+    border-radius: 6px !important;
+    border-color: #cbd5e1 !important;
+    height: 34px;
+}
+
+.ec-filters-row input[type="search"] { width: 200px; }
+
+.ec-date-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #475569;
+    font-size: 13px;
+}
+
+.ec-filters-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #f1f5f9;
+}
+
+/* ── Tabla ──────────────────────────────────────── */
+.ec-leads-wrap .wp-list-table {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+}
+
+.ec-leads-wrap .wp-list-table thead th {
+    background: #f8fafc;
+    color: #475569;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    border-bottom: 2px solid #e2e8f0;
+    padding: 10px;
+}
+
+.ec-leads-wrap .wp-list-table tbody td {
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #334155;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.ec-leads-wrap .wp-list-table tbody tr:last-child td { border-bottom: none; }
+.ec-leads-wrap .striped tbody tr:nth-child(odd) td   { background: #fafbfc; }
+.ec-leads-wrap .striped tbody tr:hover td            { background: #f0f7ff; }
+
+/* ── Badges de origen ───────────────────────────── */
+.ec-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    white-space: nowrap;
+}
+
+.ec-badge--landing { background: #ede9fe; color: #6d28d9; }
+.ec-badge--web     { background: #d1fae5; color: #065f46; }
+
+/* ── Paginación ─────────────────────────────────── */
+.ec-leads-wrap .tablenav.bottom { margin-top: 12px; }
