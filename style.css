@@ -2678,7 +2678,7 @@ h3[id] {
 .page-template-page-landing-promo textarea {
     font-family: var(--tipo-parrafo-gamma);
     font-size: 1.5rem;
-    border: solid 0.1rem var(--primary-color);
+    border: solid 0.1rem #8d5536;
     padding: 0.3rem 0;
     text-align: center;
 }
@@ -2721,8 +2721,9 @@ h3[id] {
 }
 
 .page-template-page-landing-promo label {
-    font-size: 1.5rem;
-    margin: 2rem auto 1rem auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.8rem auto 1rem auto;
 }
 
 .page-template-page-landing-promo .rtb-text.date,
@@ -2735,7 +2736,7 @@ h3[id] {
 }
 
 .page-template-page-landing-promo .rtb-contact {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .page-template-page-landing-promo .rtb-contact input,
@@ -2778,10 +2779,49 @@ h3[id] {
     text-align: left;
     border: 1px solid var(--primary-color);
     letter-spacing: 0.1rem;
-    line-height: 2.4rem;
-    border-radius: 8px;
+    line-height: 1.8rem;
+    /* border-radius: 8px; */
     font-weight: 500;
 }
+
+.page-template-page-landing-promo .lp__form-card .emphasis-io {
+    border-radius: 0px;
+    line-height: 1.8rem;
+}
+
+.page-template-page-landing-promo .lp__form-card .rtb-select.party .emphasis-io {
+    margin-top: 0.5rem;
+}
+
+.page-template-page-landing-promo .lp__form-card .add-message .emphasis-io {
+    margin-top: 0.5rem;
+}
+
+#rtb_recaptcha {
+    margin: 9xp 0!important;
+}
+
+.page-template-page-landing-promo .emphasis-io.menu__timetable {
+    background-color: #8d5536;
+}
+
+.page-template-page-landing-promo .emphasis-io {
+    background-color: #8d5536;
+}
+
+label.emphasis-io {
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: none;
+    white-space: normal;
+}
+
+.lp__form-card {
+    overflow-wrap: break-word;
+    hyphens: none;
+}
+
+
 
 /* **************************************** */
 /*                CONTACT                 */
@@ -3221,6 +3261,14 @@ footer .nm-container .legal__area a {
     color: var(--color-white);
     margin: 0;
 
+}
+
+.lp__footer-minimal .legal__area a {
+    font-family: var(--tipo-parrafo-gamma);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--color-white);
+    margin: 0;
 }
 
 footer .nm-container .sm p,
@@ -3752,6 +3800,11 @@ footer .kit-digital-logo {
         line-height: 3.4rem;
     }
 
+    .lp__footer-minimal .legal__area a {
+         font-size: 2.2rem;
+        line-height: 3.4rem;
+    }
+
     footer h4 {
         font-size: 2.4rem;
     }
@@ -4154,6 +4207,11 @@ footer .kit-digital-logo {
         line-height: 2rem;
     }
 
+
+    .lp__footer-minimal .legal__area a {
+         font-size: 1.5rem;
+        line-height: 2rem;
+    }
 
 
     footer .kit-digital-logo {
@@ -4812,7 +4870,11 @@ footer .kit-digital-logo {
         padding: 0 1.8rem;
     }
 
-
+    .lp__footer-minimal .legal__area a {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 0 1.8rem;
+    }
 
 
 
@@ -6504,6 +6566,10 @@ span.name.skintone-text.vat__info {
 }
 
 
+div#circle_bw {
+    margin: 0 auto;
+}
+
 /* ============================================================ */
 /*              LANDING PROMO - LAYOUT                          */
 /* ============================================================ */
@@ -6605,7 +6671,7 @@ span.name.skintone-text.vat__info {
 
 /* ----- Sección reseñas / Instagram ----- */
 .lp__social-section {
-    background-color: rgb(239, 233, 212);
+    background-color: #232121;
     padding: 5rem 2rem 6rem;
     text-align: center;
 }
@@ -6613,9 +6679,14 @@ span.name.skintone-text.vat__info {
 .lp__social-title {
     font-family: var(--lp-font-heading);
     font-size: 2.8rem;
-    color: var(--primary-color);
-    margin-bottom: 3rem;
-    font-style: italic;
+    color: var(--color-white);
+    margin-bottom: 3rem;    
+}
+
+.lp__social-title strong {
+    font-family: var(--lp-font-body);
+    font-weight: 500;
+    font-size: 2.5rem;
 }
 
 .lp__social-placeholder {
@@ -6678,7 +6749,7 @@ span.name.skintone-text.vat__info {
 }
 
 .lp__footer-logo-wrap img {
-    max-width: 180px !important;
+    max-width: 250px !important;
     /* Logo tamaño normal */
     height: auto !important;
     margin: 0 auto 2rem !important;
@@ -6709,14 +6780,15 @@ span.name.skintone-text.vat__info {
 }
 
 .lp__footer-divider {
-    border-top: 1px solid #333 !important;
+    border-top: 1px solid #fff !important;
     margin: 2rem 0 !important;
 }
 
 .lp__footer-bottom p,
 .lp__footer-bottom a {
-    color: #666 !important;
-    font-size: 0.9rem !important;
+    font-family: var(--lp-font-body) !important;
+    color: #fff !important;
+    font-size: 1.29rem !important;
 }
 
 /* Ocultar elementos extra en esta plantilla */
@@ -6756,13 +6828,13 @@ span.name.skintone-text.vat__info {
 }
 
 .lp__form-card .rtb-booking-form legend {
-    font-family: var(--tipo-encabezado) !important;
-    font-style: italic;
+    font-family: var(--lp-font-heading) !important;
+    font-weight: 600;
     font-size: 2.4rem;
-    color: #4a3427;
+    color: #8d5536;
     text-align: center;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Ajuste fino del título del formulario para que sea serif */
@@ -6776,8 +6848,8 @@ span.name.skintone-text.vat__info {
 
 /* ----- Campo "¿Cómo nos conoció?" (externo al plugin) ----- */
 .lp__how-hear-wrap {
-    margin-top: 1.6rem;
-    padding-top: 1.6rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
     border-top: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -6815,4 +6887,9 @@ span.name.skintone-text.vat__info {
     content: ' — Por favor, responda antes de continuar';
     color: #e05c5c;
     font-size: 1.1rem;
+}
+
+
+.lp__footer-social.buttons {
+    margin-bottom: 1.5rem;
 }

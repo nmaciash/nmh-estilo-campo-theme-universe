@@ -6,18 +6,30 @@
         </div>
 
         <!-- Redes Sociales -->
-        <div class="lp__footer-social">
-            <a href="https://www.facebook.com/estilocampofuengirola" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/estilocampo.es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <div class="lp__footer-social buttons">
+            <a href="https://www.facebook.com/Estilocampo.es/" target="_blank"><img src="https://estilocampo.net/wp-content/uploads/2023/08/face-white.png" alt="Logo Facebook" width="30" height="29"></a>
+            <a href="https://www.instagram.com/estilocampo.es" target="_blank"><img src="https://estilocampo.net/wp-content/uploads/2023/08/instagram-white.png" alt="Logo Instagram" width="30" height="29"></a>
         </div>
 
         <!-- Enlaces Legales -->
-        <nav class="lp__footer-legal">
-            <a href="/accesibilidad">Accesibilidad</a> | 
-            <a href="/aviso-legal">Aviso Legal</a> | 
-            <a href="/politica-de-privacidad">Política de Privacidad</a> | 
-            <a href="/politica-de-cookies">Política de Cookies</a>
-        </nav>
+        <div class="row w-border legal__area">
+            <div class="d-md-none col-md-12 d-sm-flex flex-column justify-content-center">
+                <a href="https://estilocampo.net/accesibilidad/">Accesibilidad</a>
+                <a href="https://estilocampo.net/politica-de-privacidad/">Aviso Legal</a> 
+                <a href="https://estilocampo.net/politica-privacidad/">Política de Privacidad</a>
+                <a href="https://estilocampo.net/politica-de-cookies/">Política de Cookies</a>
+                 
+                
+            </div>
+            <div class="d-none d-sm-none col-md-12 d-md-flex flex-row justify-content-center">
+                <a href="https://estilocampo.net/accesibilidad/">Accesibilidad</a><p>&nbsp;|&nbsp;</p>    
+                <a href="https://estilocampo.net/politica-de-privacidad/">Aviso Legal</a> <p>&nbsp;|&nbsp;</p>
+                <a href="https://estilocampo.net/politica-privacidad/">Política de Privacidad</a><p>&nbsp;|&nbsp;</p>
+                <a href="https://estilocampo.net/politica-de-cookies/">Política de Cookies</a>
+                
+                
+            </div>
+        </div>
 
         <hr class="lp__footer-divider">
 
@@ -59,6 +71,13 @@ jQuery(document).ready(function($) {
             }
         }
     }, 500);
+
+    // Forzar margin del recaptcha
+    setTimeout(function() {
+        if ($('#rtb_recaptcha').length) {
+            $('#rtb_recaptcha').get(0).style.setProperty('margin', '9px 0', 'important');
+        }
+    }, 1000);
     
 });
 </script>

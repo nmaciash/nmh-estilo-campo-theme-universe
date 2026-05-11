@@ -254,14 +254,14 @@ $(document).ready(function() {
         //  'en': "<label class='emphasis-io menu__timetable'>Bookings have a tolerance of 15 minutes. If you are unable to attend or will be late, please let us know on +34 648 05 79 53.<br/><br/>SERVICE TIMES<br/><br/>Lunch/noon menu: <br/>Available Saturday and Sunday from 14:00 to 16:00.<br/><br/>A la carte dining: Available from 16:00 to 23:00.</label>"
 
         // Verano
-         'es': "<label class='emphasis-io menu__timetable'>Las reservas tienen una tolerancia de 15 minutos. Si no puedes asistir o vas a llegar tarde, por favor avísanos al +34 648 05 79 53.",
-         'en': "<label class='emphasis-io menu__timetable'>Bookings have a tolerance of 15 minutes. If you are unable to attend or will be late, please let us know on +34 648 05 79 53."
+         'es': "<label class='emphasis-io menu__timetable'>Las reservas tienen una tolerancia de 15 minutos. Si no puedes asistir o vas a llegar tarde,<br>por favor avísanos al +34 648 05 79 53.",
+         'en': "<label class='emphasis-io menu__timetable'>Bookings have a tolerance of 15 minutes. If you are unable to attend or will be late,<br>please let us know on +34 648 05 79 53."
 
      };
 
      var texto2 = {
-         'es': "<label class='emphasis-io'>Para reservas de más de 15 personas, contactar al +34 648 05 79 53</label>",
-         'en': "<label class='emphasis-io'>For bookings of more than 15 people, contact +34 648 05 79 53</label>"
+         'es': "<label class='emphasis-io'>Para reservas de más de 15 personas,<br>contactar al +34 648 05 79 53</label>",
+         'en': "<label class='emphasis-io'>For bookings of more than 15 people,<br>contact +34 648 05 79 53</label>"
      }
 
      var texto3 = {
