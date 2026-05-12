@@ -40,7 +40,7 @@
                     <p>Copyright <?php echo date('Y'); ?> estilocampo.net</p>
                 </div>
                 <div class="col-6 text-end">
-                    <p>Created by: <a href="https://masiacode.com" target="_blank">masiacode.com</a></p>
+                    <p>Created by: <a href="https://labuhardilladelmarketing.com/" target="_blank">La Buhardilla del Márketing</a></p>
                 </div>
             </div>
         </div>

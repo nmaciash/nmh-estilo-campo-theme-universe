@@ -317,11 +317,11 @@ $(document).ready(function() {
     });
 
     // --- MARKETING: COOKIES (sin tocar el formulario del plugin) ---
-    if ($('.rtb-booking-form-form').length && !$('body').hasClass('page-template-page-templates-page-landing-promo')) {
+    if ($('.rtb-booking-form-form').length && !$('body').hasClass('page-template-page-landing-promo')) {
         document.cookie = 'booking_source=Web Principal; path=/; SameSite=Lax';
     }
 
-    if ($('body').hasClass('page-template-page-templates-page-landing-promo')) {
+    if ($('body').hasClass('page-template-page-landing-promo')) {
         document.cookie = 'booking_source=Landing Promo; path=/; SameSite=Lax';
 
         $('#lp-how-hear').on('change', function() {
