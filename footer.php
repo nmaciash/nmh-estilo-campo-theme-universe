@@ -79,7 +79,8 @@
 
         
         <div class="kit-digital-div">
-            <img class="kit-digital-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/kit-logo.jpeg" alt="BannerKitDigital" width="30" height="29" class="logo_kd">
+            <link href="https://awards.infcdn.net/2024/circle_v3.css" rel="stylesheet"/>
+            <div id="circle_bw" data-length="36" class="circle_bw_black" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.circle_bw_link').href);return 0;}"> <p class="circle_bw_year">2026</p> <div class="circle_bw_name f7"> <a class="circle_bw_link" target="_blank" href="https://es.restaurantguru.com/Estilo-Campo-Fuengirola"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178px" height="178px" viewBox="0 0 178 178"> <defs> <path id="circle_bw_name-arc" d="M 12 89 a 77 77 0 0 0 154 0"></path> </defs> <text class="circle_bw_name_txt f9" fill="#000" text-anchor="middle"> <textPath startOffset="50%" xlink:href="#circle_bw_name-arc"> Restaurante Estilo Campo | Steakhouse Fuengirola </textPath> </text> </svg> </a> </div> <div class="circle_bw_nom "> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px" viewBox="0 0 200 200"> <defs> <path id="circle_bw_nom-arc1" d="M 30 100 a 70 70 0 1 1 140 0"></path> </defs> <text class="circle_bw_nom_txt f9" fill="#000" text-anchor="middle"> <textPath startOffset="50%" xlink:href="#circle_bw_nom-arc1">Las mejores carnes</textPath> </text> </svg> </div> <a class="circle_bw_home" style="font-size: 0" href="https://restaurantguru.com" target="_blank">Restaurant Guru</a></div>
         </div>
         
         <div class="row w-border sm">
